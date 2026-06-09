@@ -1,0 +1,6 @@
+@InternshipRolePolicy.Api_HostAddress = http://localhost:5008
+
+GET {{InternshipRolePolicy.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
