@@ -3,7 +3,7 @@ WORKDIR /app
 
 COPY . .
 RUN dotnet restore InternshipRolePolicy.sln
-RUN dotnet publish src/InternshipRolePolicy.Api/InternshipRolePolicy.Api.csproj -c Release -o /out
+RUN dotnet publish InternshipRolePolicy.Api/InternshipRolePolicy.Api.csproj -c Release -o /out
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
