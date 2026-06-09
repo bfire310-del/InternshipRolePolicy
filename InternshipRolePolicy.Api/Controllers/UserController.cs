@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using InternshipRolePolicy.Application.Query.GetAllUsers;
+using Microsoft.AspNetCore.Mvc;
 
 namespace InternshipRolePolicy.Api.Controllers;
 
